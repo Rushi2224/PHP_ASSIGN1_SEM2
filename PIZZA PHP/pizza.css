@@ -1,0 +1,65 @@
+/* Styling for the body element */
+body {
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Make sure the background image covers the entire viewport */
+}
+/* Styling for h1 elements */
+h1 {
+    font-family: 'Raleway'; /* Use the 'Raleway' font family */
+    display: flex; /* Use a flex display for alignment */
+    justify-content: center; /* Center-align the content horizontally */
+    color: white; /* Set text color to white */
+    background-color: black; /* Set a black background color */
+    opacity: 60%; /* Set the opacity to 60% (slightly transparent) */
+    border-radius: 10px; /* Add a rounded border */
+}
+/* Styling for elements with class 'form' */
+.form {
+    background-color: aliceblue; /* Set a light blue background color */
+    font-size: 1.5em; /* Set the font size to 1.5em */
+    text-align: center; /* Center-align text */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+/* Styling for p elements */
+p {
+    color: red; /* Set text color to red */
+    font-size: 1.5em; /* Set the font size to 1.5em */
+    font-family: 'Odibee Sans'; /* Use the 'Odibee Sans' font family */
+}
+/* Styling for label elements */
+label {
+    font-family: 'Cinzel'; /* Use the 'Cinzel' font family */
+    font-size: 1em; /* Set the font size to 1em */
+    color: black; /* Set text color to black */
+}
+/* Styling for elements with class 'sk' */
+.sk {
+    background-color: black; /* Set a black background color */
+    font-family: 'Cinzel'; /* Use the 'Cinzel' font family */
+}
+/* Styling for elements with class 'contactinfo' */
+.contactinfo {
+    text-align: center; /* Center-align text */
+}
+/* Styling for div elements within a form */
+form > div {
+    font-size: 22px; /* Set the font size to 22px */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align text */
+}
+/* Styling for form groups within a form row */
+.form-row .form-group {
+    margin: 15px 0px; /* Add margin spacing around form groups */
+}
+/* Styling for elements with class 'submit-message' */
+.submit-message {
+    text-align: center; /* Center-align text */
+}
+/* Styling for elements with class 'confirm' */
+.confirm {
+    font-size: 25px; /* Set the font size to 25px */
+    font-family: 'Odibee Sans', sans-serif; /* Use the 'Odibee Sans' font family */
+    color: white; /* Set text color to white */
+    text-decoration: underline double; /* Add double underline decoration */
+}
